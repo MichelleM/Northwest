@@ -10,6 +10,7 @@
     <meta name="author" content="">
 
     <title>Northwest Residential</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,17 +20,7 @@
     <link rel="icon" 
       type="image/ico" 
       href="img/favicon.ico">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <script type="text/javascript">
-        var RecaptchaOptions = {
-        theme : 'clean'
-        };
-    </script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body>
@@ -59,9 +50,6 @@
                         <a href="services.html">Services</a>
                     </li>
                     <li>
-                        <a href="products.html">Products</a>
-                    </li>
-                    <li>
                         <a href="quotes.html">Request a Quote</a>
                     </li>
                     <li>
@@ -79,7 +67,7 @@
 
     <!-- Page Content -->
     <div class="container">
-        <div class='row'>
+        <div>
             <h1>Request a quote</h1>
             <form class='well' role='form'>
                 <div class="form-group">
@@ -151,17 +139,6 @@
                       <option>Other</option>
                     </select>
                 </div>
-                <script type="text/javascript"
-                   src="http://www.google.com/recaptcha/api/challenge?k=6Le7sfgSAAAAAEKHFn6AmFsNz-pq2mZtGMWJF0V0">
-                </script>
-                <noscript>
-                   <iframe src="http://www.google.com/recaptcha/api/noscript?k=6Le7sfgSAAAAAEKHFn6AmFsNz-pq2mZtGMWJF0V0"
-                       height="300" width="500" frameborder="0"></iframe><br>
-                   <textarea name="recaptcha_challenge_field" rows="3" cols="40">
-                   </textarea>
-                   <input type="hidden" name="recaptcha_response_field"
-                       value="manual_challenge">
-                </noscript>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>    
         </div>

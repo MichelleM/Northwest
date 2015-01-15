@@ -6,6 +6,7 @@
 
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 .navbar-fixed-top .nav {
@@ -28,4 +29,37 @@ footer {
     .navbar-fixed-top .navbar-brand {
         padding: 15px 0;
     }
+}
+
+.request-quote {
+    margin-top:15px;
+}
+
+.subtitle {
+    font-size:40px;
+    margin-left:15px;
+    margin-bottom: 20px;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.cor-logo{
+    height:75px;
+}
+
+.logo {
+    margin-top:10px;
+    text-align:center;
+}
+
+.top-40{
+    margin-top:40px;
+}
+
+.home-btn{
+    margin-bottom:10px;
+}
 }
