@@ -10,7 +10,6 @@ $products = $_POST['products'];
 $heard = $_POST['heard'];
 $captcha = $_POST['recaptcha_response_field'];
 
-
 // create email body and send it    
 $to = 'milmontford@gmail.com'; // put your email
 $email_subject = "Quote request from:  $name";
@@ -25,17 +24,16 @@ $email_body = "You have received an new quote request. \n\n".
 $headers = "From: $email_address\n";
 $headers .= "Reply-To: $email_address"; 
 
-$response=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=6Le7sfgSAAAAAGCAIs4m0jxr0NeI32nXc-k3QVyt&response=".$captcha."&remoteip=".$_SERVER['REMOTE_ADDR']);
+$response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=6Le7sfgSAAAAAGCAIs4m0jxr0NeI32nXc-k3QVyt&response=".$captcha."&remoteip=".$_SERVER['REMOTE_ADDR']);
+
+$response = json_decode($response);
 
 //THIS IS NOT WORKING :( i just need to verify that the captcha response was valid. If yes send email. If no return error.
-if($response.success==false)
-{
-  echo '<h2>You are spammer ! Get the @$%K out</h2>';
-}else
-{
-  echo '<h2>Thanks for posting comment.</h2>';
-}
+if($response->success == true){
+ 	mail($to, $email_subject, $email_body, $headers);
+ 	header($_SERVER["SERVER_PROTOCOL"]." 200 OK"); 
+} else {
+	$success = false;
+	header($_SERVER["SERVER_PROTOCOL"]." 406 Not Acceptable"); 
+}   
 
-mail($to,$email_subject,$email_body,$headers);
-return false;            
-?>
