@@ -30,7 +30,14 @@
 </head>
 
 <body>
-
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=219546518245135&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
@@ -73,42 +80,37 @@
 
     <!-- Page Content -->
     <div class="container">
-
+        <div class="col-md-2 col-md-offset-3">
+            <div class="logo">
+                <a href=" http://www.bbb.org/manitoba/business-reviews/heating-and-air-conditioning/northwest-residential-heating-and-cooling-in-winnipeg-mb-30196">
+                    <img class='square-logo' src="img/bbb.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="logo">
+                <a href="http://www.constructionsafety.ca/">
+                    <img class="cor-logo" src="img/COR.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="logo">
+                <a  href="">
+                    <img class='square-logo'src="img/energystar.png" alt="">
+                </a>
+            </div>
+        </div>
         <!-- Heading Row -->
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 col-md-offset-3">
                 <img class="img-responsive img-rounded" src="img/northwest.png" alt="">
             </div>
-            <div class="col-md-2">
-                <div class="logo">
-                    <a href="">
-                        <img class="cor-logo" src="img/COR.png" alt="">
-                    </a>
-                </div>
-                <div class="logo">
-                   <a href=" http://www.bbb.org/manitoba/business-reviews/heating-and-air-conditioning/northwest-residential-heating-and-cooling-in-winnipeg-mb-30196">
-                    <img src="img/bbb.png" alt="">
-                    </a>
-                </div>
-                <div class="logo">
-                    <a  href="">
-                        <img src="img/energystar.png" alt="">
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4 top-40">
-                <h4>Proudly serving the Winnipeg community for over 30 years!</h4>
-                
-                <br><br>
-                <a class="btn btn-primary btn-lg" href="about">Find out more</a>
-            </div>
-            <!-- /.col-md-4 -->
         </div>
-        <!-- /.row -->
+        <h2 class='text-center'>Proudly serving the Winnipeg community for over 30 years!</h2>
 
         <hr>
-
-        <!-- Call to Action Well -->
+        
         <div class="row">
             <div class="col-lg-12">
                 <div class="well text-center">
@@ -152,7 +154,9 @@
             <!-- /.col-md-4 -->
         </div>
         <!-- /.row -->
-
+        <div class='facebook-widget text-center'>
+            <div class="fb-like" data-href="https://www.facebook.com/pages/Northwest-Ventilation/251025421644846" data-width="300" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+        </div>
         <!-- Footer -->
         <footer>
             <div class="row">

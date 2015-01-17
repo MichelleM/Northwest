@@ -45,6 +45,10 @@ footer {
     margin-right: 0;
 }
 
+.square-logo{
+    padding-top:9px
+}
+
 .cor-logo{
     height:75px;
 }
@@ -54,12 +58,13 @@ footer {
 }
 
 .logo {
-    margin-top:10px;
+    margin:10px;
     text-align:center;
+    min-height:75px;
 }
 
-.top-40{
-    margin-top:40px;
+.facebook-widget{
+    margin-top:20px;
 }
 
 .home-btn{
