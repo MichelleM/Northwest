@@ -67,7 +67,27 @@ footer {
     margin-top:20px;
 }
 
-.home-btn{
-    margin-bottom:10px;
+.clear{
+    clear:both;
 }
+
+.find-out-more{
+    margin-bottom:20px;
+}
+
+.home-btn{
+    font-size: 40px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 100px;
+    width: 151px;
+    height: 151px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+.home-btn p{
+    font-size: 15px;
 }
