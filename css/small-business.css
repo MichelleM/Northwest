@@ -37,7 +37,6 @@ footer {
 
 .subtitle {
     font-size:40px;
-    margin-left:15px;
     margin-bottom: 20px;
 }
 
@@ -48,6 +47,10 @@ footer {
 
 .cor-logo{
     height:75px;
+}
+
+.cor-logo-lg{
+    margin-top:45px;
 }
 
 .logo {
