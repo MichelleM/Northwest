@@ -22,14 +22,14 @@ $(function() {
       var heard = $('select#heard').val();
 
 
-      $('checkbox :checked').each(function() {
+      $('input[type="checkbox"]:checked').each(function() {
         products += $(this).val() + '<br>'
       });
 
       var firstName = name; // For Success/Failure Message
       // Check for white space in name for Success/Fail message
       if (firstName.indexOf(' ') >= 0) {
-       firstName = name.split(' ').slice(0, -1).join(' ');
+        firstName = name.split(' ').slice(0, -1).join(' ');
       }   
   
       $.ajax({
