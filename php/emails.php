@@ -11,7 +11,7 @@ $heard = $_POST['heard'];
 $captcha = $_POST['recaptcha_response_field'];
 
 // create email body and send it    
-$to = 'milmontford@gmail.com'; // put your email
+$to = 'contactus@northwestventilation.com';
 $email_subject = "Quote request from:  $name";
 $email_body = "You have received an new quote request. \n\n".
                 "Name: $name\n".

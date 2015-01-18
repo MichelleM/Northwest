@@ -23,7 +23,7 @@ $(function() {
 
 
       $('input[type="checkbox"]:checked').each(function() {
-        products += $(this).val() + '<br>'
+        products += $(this).val() + ', '
       });
 
       var firstName = name; // For Success/Failure Message
