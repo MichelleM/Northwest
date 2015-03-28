@@ -1,0 +1,32 @@
+{
+    "curly": true,
+    "eqnull": true,
+    "eqeqeq": true,
+    "immed": true,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "undef": true,
+    "unused": true,
+    "maxlen": 124,
+    "indent": 4,
+
+    "quotmark": "single",
+    "strict": true,
+    "laxbreak": true,
+
+    "browser": true,
+
+    "globals": {
+        "require": true,
+        "define": true,
+        "console": true,
+        "jasmine": true,
+        "describe": true,
+        "it": true,
+        "expect": true,
+        "beforeEach": true,
+        "afterEach": true,
+        "spyOn": true
+    }
+}

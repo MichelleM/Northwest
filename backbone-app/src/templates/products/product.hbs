@@ -1,0 +1,15 @@
+<div class='col-md-4'>
+    <h4>{{name}}
+        <a href='{{link}}' target='_blank'>
+            <i class='fa fa-info-circle'></i>
+        </a>
+    </h4>
+    <div>{{tag}}</div>
+    <img src='{{img}}'/>
+    <h4>Top Features</h4>
+    <ul>
+       {{#each topFeatures}}
+            <li>{{this}}</li>
+       {{/each}}
+    </ul>
+</div>

@@ -1,0 +1,30 @@
+[
+	{	"id":"ASXC18",
+		"img":"img/amana/ASXC18.png",
+		"type": "air",
+		"name": "Amana ASXC18",
+		"link": "http://www.amana-hac.com/Products/AirConditioners/18SEERASXC18.aspx",
+		"tag": "Air Conditioner",
+		"topFeatures": ["Up to 19 SEER Performance",
+						"R-410A Chlorine-Free Refrigerant",
+						"ComfortNet™ Communication System Compatible"]
+	},
+	{	"id":"ASX16",
+		"img":"img/amana/asx16.png",
+		"type": "air",
+		"name": "Amana ASX16",
+		"link": "http://www.amana-hac.com/Products/AirConditioners/16SEERASX16.aspx",
+		"tag": "Air Conditioner",
+		"topFeatures": ["Up to 16 SEER Performance",
+						"R-410A Chlorine-Free Refrigerant"]
+	},
+	{	"id":"ASX13",
+		"img":"img/amana/ASX13.png",
+		"type": "air",
+		"name": "Amana ASX13",
+		"link": "http://www.amana-hac.com/Products/AirConditioners/13SEERASX13.aspx",
+		"tag": "Air Conditioner",
+		"topFeatures": ["Up to 14 SEER Efficiency",
+						"R-410A Chlorine-Free Refrigerant"]
+	}
+]

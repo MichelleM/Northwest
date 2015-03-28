@@ -1,0 +1,47 @@
+{
+  "name": "Northwest",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "~2.0.2",
+    "underscore": "~1.4.4",
+    "backbone": "~1.0.0",
+    "backbone.marionette": "~1.0.1",
+    "requirejs": "~2.1.5",
+    "require-handlebars-plugin": "~0.4.0",
+    "handlebars": "~1.0.0",
+    "log4javascript": "~1.4.5",
+    "sass-bootstrap": "~2.3.2",
+    "font-awesome": "~3.2.1"
+  },
+  "exportsOverride": {
+    "backbone": {
+      "": "backbone.js"
+    },
+    "font-awesome": {
+      "font": "font/*",
+      "scss": "scss/*.scss"
+    },
+    "handlebars": {
+      "": "handlebars.js"
+    },
+    "log4javascript": {
+      "": "log4javascript.js"
+    },
+    "require-handlebars-plugin": {
+      "": [
+        "hbs.js",
+        "hbs/*.js"
+      ]
+    },
+    "requirejs": {
+      "": "require.js"
+    },
+    "sass-bootstrap": {
+      "js": "js/*.js",
+      "scss": "lib/*.scss"
+    },
+    "underscore": {
+      "": "underscore.js"
+    }
+  }
+}

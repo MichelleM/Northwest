@@ -1,0 +1,23 @@
+[
+	{	"id":"TM9V",
+		"img":"img/york/TM9V.png",
+		"type": "furnace",
+		"name": "York® LX Series TM9V Furnace",
+		"link": "http://york.com/residential/products/furnaces/lx/96-afue-unit-tm9v.aspx",
+		"tag": "",
+		"topFeatures": [ "ENERGY STAR® qualifying efficiency of up to 96% AFUE offers more heat for less.",
+                        "Two-stage burner provides a higher degree of comfort.",
+                        "Variable speed blower provides quiet, efficient circulation.",
+                        "Compact 33-inch height fits the space in your place."]
+	},
+	{	"id":"TM8X",
+		"img":"img/york/TM8X.png",
+		"type": "furnace",
+		"name": "York® LX Series TM8X Furnace",
+		"link": "http://york.com/residential/products/furnaces/lx/80-afue-unit-tm8x.aspx",
+		"tag": "",
+		"topFeatures": ["Single-stage heating cycle maintains consistent comfort.",
+                        "Compact 33-inch height fits the space in your place.",
+                        "Constant speed blower ensures dependable air distribution."]
+	}
+]
