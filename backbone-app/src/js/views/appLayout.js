@@ -2,7 +2,8 @@ define([
     'underscore',
     'backbone',
     'marionette',
-    'hbs!tpl/appLayout'
+    'hbs!tpl/appLayout',
+    'bs.collapse'
 ], function (
     _,
     Backbone,
